@@ -13,7 +13,7 @@ time <- strptime(paste(electric1$Date,electric1$Time," "), "%d/%m/%Y %H:%M:%S")
 
 #draw plot #4 - 4 charts at once
 # 2 x 2
-png(filename = "plot4.png", width = 500, height = 500, bg = "white")
+png(filename = "plot4.png", width = 480, height = 480, bg = "white")
 
 par(mfrow = c(2,2))
 

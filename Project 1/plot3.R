@@ -12,7 +12,7 @@ rm(electric)
 time <- strptime(paste(electric1$Date,electric1$Time," "), "%d/%m/%Y %H:%M:%S")
 
 #draw 3 plot lines at the same chart for submeterings
-png(filename = "plot3.png", width = 500, height = 500, bg = "white")
+png(filename = "plot3.png", width = 480, height = 480, bg = "white")
 plot(time, electric1$Sub_metering_1, col="black", type="n", ylab = "Energy sub metering", xlab = "")
 lines(time, electric1$Sub_metering_1, col="black", type="l")
 lines(time, electric1$Sub_metering_2, col="red")
